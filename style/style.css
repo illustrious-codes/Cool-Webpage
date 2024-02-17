@@ -346,7 +346,7 @@ footer .content div {
 @media screen and (max-width: 720px) {
   .nav {
     height: 3vh;
-    width: 18rem;
+    width: 45rem;
   }
   .nav ul li {
     display: flex;
@@ -358,7 +358,87 @@ footer .content div {
 
   .header {
     height: 90vh;
-    width: 18rem;
+    width: 45rem;
+    background-image: url("/header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    font-size: 10px;
+  }
+
+  .section {
+    width: 45rem;
+  }
+  .section h1 {
+    letter-spacing: 3px;
+  }
+  .names {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4px;
+    width: 10px;
+  }
+  .names > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .tours {
+    background-color: black;
+    color: #fff;
+    margin-top: 25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .tours h1 {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    align-items: center;
+  }
+  .galleries {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer img {
+    width: 45rem;
+  }
+  footer .content p {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .nav {
+    height: 3vh;
+    width: 45rem;
+  }
+  .nav ul li {
+    display: flex;
+    align-items: center;
+    height: 5%;
+    padding: 0 2px;
+    font-size: 10px;
+  }
+
+  .header {
+    height: 90vh;
+    width: 45rem;
     background-image: url("/header.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
